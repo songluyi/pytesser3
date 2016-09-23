@@ -2,7 +2,7 @@
 # 2016/9/22 16:18
 """
 -------------------------------------------------------------------------------
-Function:
+Function:   test your pytesser3
 Version:    1.0
 Author:     SLY
 Contact:    slysly759@gmail.com 
