@@ -5,9 +5,8 @@ V 0.0.1, 3/10/07"""
 
 from PIL import Image
 import subprocess
-from pytesser import util
-# import util
-from pytesser import errors
+from pytesser3 import util
+from pytesser3 import errors
 #请务必修改下面的tesseract的name 换成你安装的ocr路径，谢谢！
 tesseract_exe_name = 'c:\\Program Files (x86)\\Tesseract-OCR\\tesseract' # Name of executable to be called at command line
 scratch_image_name = "temp.bmp" # This file must be .bmp or other Tesseract-compatible format
@@ -63,7 +62,6 @@ if __name__=='__main__':
 		text = image_file_to_string('fnord.tif', graceful_errors=False)
 	except Exception as e:
 		print("fnord.tif is incompatible filetype.  Try graceful_errors=True")
-		print(value)
 	text = image_file_to_string('fnord.tif', graceful_errors=True)
 	print("fnord.tif contents:", text)
 	text = image_file_to_string('fonts_test.png', graceful_errors=True)

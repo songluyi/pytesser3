@@ -17,6 +17,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+.idea/
 lib/
 lib64/
 parts/
@@ -90,3 +91,5 @@ ENV/
 # Rope project settings
 .ropeproject
 
+code.jpg
+newcode.jpg

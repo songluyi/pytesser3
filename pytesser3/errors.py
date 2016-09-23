@@ -7,7 +7,7 @@ class Tesser_Invalid_Filetype(Tesser_General_Exception):
 	pass
 
 def check_for_errors(logfile = "tesseract.log"):
-	inf = file(logfile)
+	inf = open(logfile)
 	text = inf.read()
 	inf.close()
 	# All error conditions result in "Error" somewhere in logfile
