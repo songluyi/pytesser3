@@ -16,6 +16,11 @@
 
 1. 你可以运行目录下的code.py 运行一下即可检验轮子是否成功。
 
+如图：
+
+![](http://www.songluyi.com/wp-content/uploads/2016/09/QQ图片20160923100109.png)
+
+
 ##其他注意事项
 
 1. 为什么你的pytesser3下面有tesseract.exe为啥我还需要加载新引擎
